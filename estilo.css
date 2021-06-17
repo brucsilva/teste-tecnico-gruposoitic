@@ -1,0 +1,241 @@
+body {
+    background-color: rgb(224, 224, 224);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.main {
+    justify-content: center;
+}
+
+h1.titulo {
+    text-align: left;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.destaque {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h3.titulo-form {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.login {
+    height: auto;
+    justify-content: center;
+    text-align: center; 
+    margin-bottom: 15px;
+}
+
+.login input {
+    color: #cbcac7;
+    background-color: transparent; 
+    border: 0; 
+    border-bottom: 1px solid #cbcac7; 
+    border-radius: 0;
+    transition: 0.3s;
+}
+
+.login input:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: rgb(224, 224, 224);
+    border-bottom: 1px solid #000; 
+}
+
+figure.icone {
+    margin-top: 15px;
+}
+
+figure.icone img {
+    width: 20px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #000; 
+}
+
+.botao-signup {
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 0;
+}
+
+.botao-login {
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid;
+    border-radius: 0;
+
+}
+
+.app {
+    float: left;
+}
+
+.app img {
+    margin-top: 30px;
+    height: 35px;
+    width: auto;
+    align-items: flex-start;
+    transition: 0.3s;
+}
+
+.app img:hover {
+    box-shadow: 0px 0px 5px rgba(61, 58, 58, 2);
+}
+
+.google-play {
+    margin-left: 15px;
+
+}
+
+.banner {
+    height: 100vh;
+    width: auto;
+    margin: auto;
+    background-image: url(img/img1.jpg);
+}
+
+.carousel button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    bottom: 30px;
+    top: unset;
+    right: 100px;
+    left: unset;
+}
+
+.carousel button.carousel-control-prev {
+    right: 160px;
+
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 543px) {
+    h1.titulo {
+        margin-top: 20px;
+    }
+
+    h3.titulo-form {
+        margin-top: 20px;
+    }
+
+    .botao-signup {
+        margin-top: 20px;
+    }
+
+    figure.app {
+        width: 50%;
+        float: left;
+        margin-bottom: 30px;
+    }
+
+    figure.app img.apple-store {
+        float: right;
+    }
+
+    figure.app img.google-play {
+        margin-left: 0;
+    }
+
+    .banner {
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    .carousel button.carousel-control-next {
+        right: 20%;
+    }
+
+    .carousel button.carousel-control-prev {
+        left: 20%;
+    }
+}
+
+@media screen and (min-width: 544px) and (max-width: 767px) {
+    
+    
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    h1.titulo {
+        margin-top: 20px;
+    }
+
+    h3.titulo-form {
+        margin-top: 20px;
+    }
+
+    .botao-signup {
+        margin-top: 20px;
+    }
+
+    figure.app {
+        width: 50%;
+        float: left;
+        margin-bottom: 30px;
+    }
+
+    figure.app img.apple-store {
+        float: right;
+    }
+
+    figure.app img.google-play {
+        margin-left: 0;
+    }
+
+    .banner {
+        height: 800px;
+        margin-bottom: 20px;
+    }
+        
+}
+
+@media screen and (min-width: 993px) and (max-width: 1024px) {
+
+    h1.titulo {
+        margin-top: 20px;
+    }
+
+    h3.titulo-form {
+        margin-top: 20px;
+    }
+
+    .botao-signup {
+        margin-top: 20px;
+    }
+
+    figure.app {
+        width: 50%;
+        float: left;
+        margin-bottom: 30px;
+    }
+
+    figure.app img.apple-store {
+        float: right;
+    }
+
+    figure.app img.google-play {
+        margin-left: 0;
+    }
+
+    .banner {
+        height: 850px;
+    }
+    
+}

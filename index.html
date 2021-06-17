@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Let"s ROCK</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="container-fluid h-100">
+        <div class="row h-100">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="row h-100 justify-content-center align-items-center">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-6">
+                        <!-- Titulo principal -->
+                        <h1 class="titulo">Let's <span class="destaque"><strong>ROCK</strong>.</span></h1>
+                        <!-- área de login -->
+                        <div class="login">
+                            <h3 class="titulo-form">Create your account</h3>
+                            <form action="#">
+                                <div class="row align-items-center">
+                                    <div class="col-1">
+                                        <figure class="icone">
+                                            <img src="img/img-username.svg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="col-11">
+                                        <div class="form-floating mb-3">
+                                            <input required type="username" class="form-control" id="floatingInput"
+                                                placeholder="Username">
+                                            <label for="floatingInput" style="color: gray;">Username</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-1">
+                                        <figure class="icone">
+                                            <img src="img/img-email.svg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="col-11">
+                                        <div class="form-floating mb-3">
+                                            <input required type="email" class="form-control" id="floatingInput"
+                                                placeholder="name@example.com">
+                                            <label for="floatingInput" style="color: gray;">Email</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-1">
+                                        <figure class="icone">
+                                            <img src="img/img-password.svg" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="col-11">
+                                        <div class="form-floating mb-3">
+                                            <input required type="password" class="form-control" id="floatingPassword"
+                                                placeholder="Password">
+                                            <label for="floatingPassword" style="color: gray;">Password</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-self-center">
+                                    <div class="col">
+                                        <button type="submit" class="btn btn-outline-dark botao-signup">Signup</button>
+                                        <br>
+                                        <span>or</span> <br>
+                                        <button type="submit" class="btn btn-outline-dark botao-login">Login</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- Botões google-play e apple-store -->
+                        <div class="row align-items-start">
+                            <div class="col-12">
+                                <a href="#">
+                                    <figure class="app">
+                                        <img src="img/apple-store.png" class="apple-store" alt="">
+                                    </figure>
+                                </a>
+                                <a href="#">
+                                    <figure class="app">
+                                        <img src="img/google-play.png" class="google-play" alt="">
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- banners em carrossel -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 carousel-fade">
+                <div class="row h-100 justify-content-center align-items-center">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Imagem 1 -->
+                            <div class="carousel-item active justify-content-center align-items-center">
+                                <img src="img/img1.jpg" class="d-block banner" alt="...">
+                            </div>
+                            <!-- Imagem 2 -->
+                            <div class="carousel-item justify-content-center align-items-center">
+                                <img src="img/img2.jpg" class="d-block banner" alt="...">
+                            </div>
+                            <!-- Imagem 3 -->
+                            <div class="carousel-item justify-content-center align-items-center">
+                                <img src="img/img3.jpg" class="d-block banner" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
